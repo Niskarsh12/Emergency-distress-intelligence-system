@@ -88,23 +88,31 @@ Instead, it:
 
 ## 🗺️ System Architecture
 
-Distress Messages (Unstructured Text)
-        ↓
+Distress Message
+
+↓
+
 Semantic Analysis & Urgency Scoring
-        ↓
-Elasticsearch Index
-  • geo_point location
-  • urgency score
-  • incident metadata
-        ↓
-Elastic Maps Visualization
-  • Distress Heatmap (aggregated urgency)
-  • Individual Emergency Case Points
-        ↓
+
+↓
+
+Elasticsearch (Geo + Metadata Indexing)
+
+↓
+
+Elastic Maps
+
+├─ Distress Heatmap (Aggregated Urgency)
+
+└─ Individual Emergency Case Points
+
+↓
+
 Human Emergency Coordinators
-  • Prioritization
-  • Verification
-  • Rescue & Aid Coordination
+
+↓
+
+Rescue & Aid Response
 
 
 ---
