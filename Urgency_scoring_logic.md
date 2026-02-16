@@ -78,3 +78,58 @@ Urgency scoring considers multiple dimensions:
 
 In Elastic Maps, urgency values are aggregated using:
 
+
+This creates a **distress intensity heatmap**, where:
+
+- Higher concentration of high-urgency reports → hotter regions
+- Lower urgency reports → cooler regions
+
+This enables:
+
+- Visual prioritization
+- Geospatial clustering of crisis zones
+- Rapid situational awareness
+
+---
+
+## Human-in-the-Loop Escalation
+
+If urgency exceeds a defined threshold (e.g., 0.85):
+
+- Case is escalated to human emergency coordinators
+- Immediate response workflow is triggered
+- Resource matching and dispatch coordination begins
+
+This prevents:
+- AI-only decision making
+- False prioritization
+- Over-automation in critical scenarios
+
+---
+
+## Design Philosophy
+
+The urgency scoring system follows three principles:
+
+1. **Transparency** – Scores are explainable and interpretable.
+2. **Prioritization** – Critical lives first.
+3. **Augmentation, not replacement** – AI supports human responders.
+
+---
+
+## Future Improvements
+
+- NLP-based dynamic scoring
+- Historical incident weighting
+- Real-time environmental data integration
+- Adaptive threshold learning
+
+---
+
+## Conclusion
+
+Urgency scoring is the bridge between raw human distress signals and actionable emergency intelligence.
+
+It enables EDIS to move from message processing to life-saving prioritization.
+
+
